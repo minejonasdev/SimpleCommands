@@ -1,0 +1,17 @@
+name: CommandPlugin
+main: MineJonas\MainClass
+version: 1.0.0
+api: [3.0.0,4.0.0]
+
+load: STARTUP
+author: MineJonas
+website: https://github.com/minejonasdev/SimpleCommands.git
+commands:
+ Hello:
+  description: Hallo Command
+  usage: "Usage: /example"
+  permission: CommandPlugin.command.hello
+permissions:
+ CommandPlugin.command.hello:
+  description: "Erlaubt dem Spieler /hello zu benutzen."
+  default: true
