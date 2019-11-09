@@ -1,1 +1,9 @@
-
+Wie benutze ich dieses Plugin?
+1.Navigiere zu deinem Plugin-Ordner.
+2.Erstelle dort einen Ordner nahmens CommandPlugin.
+3.In dem Ordner erstellst du einen zweiten Ordner nahmens src.
+4.In diesem Ordner erstellst du einen Ordner nahmens MineJonas.
+5.In diesem kopierst du die MainClass.php.
+6.Gehe nun zurüch zu dem Pfad:Plugins/CommandPlugin.
+7.Füge hier die plugin.yml ein(nicht in den src Ordner).
+Reloade deinen Server und probiere es aus.
