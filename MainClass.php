@@ -17,7 +17,18 @@ class Main extends PluginBase
   }
    switch ($cmd->getName()) }
        case "hallo":
-           $sender->sendMessage (TextFormat::YELLOW . "Hallo," . Textformat::AQUA . $sender->getName() . TextFormat::BLUE "!");
+           $sender->sendMessage (TextFormat::YELLOW . "Hallo," . Textformat::AQUA . $sender->getName() . TextFormat::BLUE "!";
+           return true;
+    }
+  }
+                               
+                            
+      
+                                 
+                                 
+            
+   
+           
 
            
 
