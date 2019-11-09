@@ -9,7 +9,7 @@ website: https://github.com/minejonasdev/SimpleCommands.git
 commands:
  Hello:
   description: Hallo Command
-  usage: "Usage: /example"
+  usage: "Usage: /hello"
   permission: CommandPlugin.command.hello
 permissions:
  CommandPlugin.command.hello:
