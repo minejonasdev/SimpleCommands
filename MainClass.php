@@ -14,7 +14,13 @@ class Main extends PluginBase
   }
   
   public function onCommand(CommandSender,$sender,Command,$cmd,$label, array $args)
-    
+  }
+   switch ($cmd->getName()) }
+       case "hallo":
+           $sender->sendMessage (TextFormat::YELLOW . "Hallo," . Textformat::AQUA . $sender->getName() . TextFormat::BLUE "!");
+
+           
+
 
 
   
